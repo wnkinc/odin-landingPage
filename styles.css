@@ -71,14 +71,46 @@ body {
 
     .container {
         display: flex;
+        justify-content: space-between;
         gap: 40px;
         padding: 80px 0;
     }
 
 .content {
-    background-color: aliceblue;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+    .contentBoxes {
+        display: flex;
+        padding: 0 100px;
+        gap: 24px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: extra-bold;
+        color: #1F2937;
+    }
+    .contentImg {
+        border: 4px solid #3882F6;
+        width: 150px;
+        height: 150px;
+        border-radius: 24px;
+    }
+
+    .text {
+        text-align: center;
+        color: #1F2937;
+        padding: 0 24px;
+    }
 
 .quote {
     flex: 1;
