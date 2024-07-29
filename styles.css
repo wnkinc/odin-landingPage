@@ -9,7 +9,7 @@ body {
 .top {
     background-color: #1f2937;
     flex: 1 1 50px;
-    padding: 18px 100px;
+    padding: 18px 120px;
     padding-bottom: 0;
 }
 
@@ -84,7 +84,7 @@ body {
 }
     .contentBoxes {
         display: flex;
-        padding: 0 100px;
+        padding: 0 120px;
         gap: 24px;
     }
 
@@ -113,8 +113,24 @@ body {
     }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 0 120px;
 }
+
+    .quote .author {
+        font-size: 24px;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 30px;
+    }
 
 .bottom {
     flex: 0 1 50px;
