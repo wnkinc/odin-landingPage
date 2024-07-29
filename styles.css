@@ -1,14 +1,16 @@
 body {
-    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 150vh;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
 .top {
-    background-color: rgb(12, 35, 65);
-    margin: 0;
-    flex: 1 1 100px;
+    background-color: #1f2937;
+    flex: 1 1 50px;
+    padding: 18px 100px;
+    padding-bottom: 0;
 }
 
     .header {
@@ -17,7 +19,9 @@ body {
     }
 
     .logo {
-        color: aliceblue;
+        color: #F9FAF8;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     ul {
@@ -27,13 +31,52 @@ body {
     }
 
     li {
-        color: aliceblue;
-        list-style-type: none;
+        list-style-type: none;  
+    }
+        a {
+            color: #F9FAF8;
+            text-decoration: none;
+        }
+
+    h1 {
+        font-size: 48px;
+        font-weight: extra-bold;
+        color: #F9FAF8;
+        margin: 0;
+        padding: 0;
+    }
+/* need to change p to specify because two p's */
+    p {
+        font-size: 18px;
+        color: #E5E7EB;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .one {
+        background-color: #3882F6;
+        color: #E5E7EB;
+        padding: 8px 28px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .wedding {
+        width: 420px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+        padding: 80px 0;
     }
 
 .content {
     background-color: aliceblue;
-    margin: 0;
     flex: 1;
 }
 
@@ -42,9 +85,7 @@ body {
 }
 
 .bottom {
-    flex: 1 1 50px;
-    margin: 0;
-    padding: 0;
+    flex: 0 1 50px;
 }
 
 .footer {
